@@ -1,0 +1,11 @@
+.btn {
+    display: flex;
+    gap: 21px;
+    padding: 12px 36px 12px 12px;
+    justify-content: center;
+    max-width: max-content;
+    color: #fff;
+    background: var(--Blue-600);
+    border: 2px solid var(--Blue-600);
+    border-radius: 8px;
+}

@@ -8,7 +8,8 @@
 @import url(components/_footer.css);
 
 @import url(home/_project.css);
-@import url(home/_work.css);
+@import url(home/_working.css);
+@import url(home/_tools.css);
 
 * {
   box-sizing: border-box;

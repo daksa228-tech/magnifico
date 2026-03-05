@@ -1,47 +1,51 @@
 .project {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #2563EB;
 }
-.project__inner {
-    padding: 80px 0px 80px 0px;
-    border-radius: 20px;
-    min-height: 600px;
-    color: var(--Lavender-Mist);
-    font-family: var(--font-family);
 
-    .header__inner {
-    max-width: 1280px;
+.project__inner {
     font-family: var(--font-family);
-    color: #000000;
-    border-radius: 20px;
-    padding: 24px 0;
-    display: flex;
+    color: var(--blue-gray-900);
     justify-content: space-between;
-}
+    padding: 40px;
+    display: flex;
+    gap: 80px;
+    border-radius: 40px;
+    flex-direction: row-reverse;
+    background-image: url('/images/backTrail.png');
 }
 
 .project__content {
-    max-width: 600px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.project__title {
     font-weight: 800;
     font-size: 72px;
-    line-height: 1;
-    margin-bottom: 24px;
+    color: var(--blue-gray-900);
+    margin: 24px 0px;
 }
+
 .project__text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-    margin-bottom: 60px;
-    max-width: 540px;
-}
+color: var(--blue-gray-900);
 
-
-.project__bottom {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-.project__subtext {
+    margin: 24px 0px;
     font-size: 14px;
+}
+
+.project__button {
+    display: flex;
+    gap: 16px;
+    background: var(--royal-night);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.project__email {
+    border: 1px solid;
+
 }
