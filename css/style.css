@@ -10,6 +10,7 @@
 @import url(home/_project.css);
 @import url(home/_working.css);
 @import url(home/_tools.css);
+@import url(home/_hero.css);
 
 * {
   box-sizing: border-box;

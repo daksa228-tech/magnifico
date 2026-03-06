@@ -1,0 +1,38 @@
+.hero__inner {
+    font-family: var(--font-family);
+    color: #fff;
+    justify-content: space-between;
+    padding: 80px;
+    display: flex;
+    gap: 80px;
+    min-height: 496px;
+    border-radius: 40px;
+    max-width: 1280px;
+    background-image: url(../../images/hero.png);
+}
+.hero__content {
+    display: flex;
+    gap: 24px;
+    max-width: 520px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hero__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.hero__title {
+    font-size: 56px;
+    line-height: 110%;
+}
+.hero__text {
+    font-size: 14px;
+}
+
+.hero__btn {
+    border-radius: 20px;
+    font-size: 14px;
+}
