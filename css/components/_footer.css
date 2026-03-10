@@ -3,51 +3,40 @@
 }
 
 .footer__inner {
-    max-width: 1280px;
     font-family: var(--font-family);
-    color: #000000;
-    border-radius: 20px;
-    padding: 24px 80px;
+    color: var(--Blue-gray-900);
     display: flex;
-    gap: 8px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .footer__title {
-    font-size: 32px;
+    font-size: 18px;
     line-height: 110%;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.footer__text {
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--Blue-gray-600);
 }
 
 .footer__list {
     font-size: 16px;
     display: flex;
-    gap: 8px;
+    gap: 24px;
 }
 
 .footer__link {
-    color: #000000;
-    padding: 12px;
-    line-height: 1;
-    display: flex;
-    gap: 8px;
-    font-weight: 500;
+    color: var(--Blue-gray-600);
+    padding: 12px 0px;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.03em;
-}
-
-.footer__button {
-    display: flex;
-    gap: 21px;
-    padding: 12px 36px 12px 12px;
-
-    display: flex;
-    font-weight: 500;
-    font-size: 16px;
-    color: #ffff;
-    background: var(--Blue-600);
-    border: 2px solid var(--Blue-600);
-    padding: 12px;
-    border-radius: 8px;
+    line-height: 140%;
 }

@@ -1,15 +1,16 @@
 .header {
     margin-bottom: 80px;
+    padding: 24px 0;
 }
 
 .header__inner {
-        border-bottom: 1px solid #E2E8F0;
-    max-width: 1280px;
+    border-bottom: 1px solid var(--Blue-gray-200);
+    padding-bottom: 24px;
+    color: var(--Blue-gray-900);
     font-family: var(--font-family);
-    color: #000000;
-    padding: 24px 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__title {
@@ -22,31 +23,14 @@
     font-size: 16px;
     display: flex;
     gap: 8px;
+    font-weight: 500;
 }
 
 .header__link {
-    color: #000000;
     padding: 12px;
     line-height: 1;
-    display: flex;
-    gap: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.03em;
-}
-
-.header__button {
-    display: flex;
-    gap: 21px;
-    padding: 12px 36px 12px 12px;
-
-    display: flex;
-    font-weight: 500;
-    font-size: 16px;
-    color: #ffff;
-    background: var(--Blue-600);
-    border: 2px solid var(--Blue-600);
-    padding: 12px;
-    border-radius: 8px;
 }
