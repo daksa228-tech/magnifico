@@ -41,10 +41,17 @@
     font-size: 16px;
     max-width: 600px;
 }
-.project__button input {
+.project__button-inner {
     font-size: 16px;
-    min-width: 408px;
+    width: 408px;
     border-radius: 8px;
-    padding: 13px 16px;
+    padding: 13px 16px 13px 48px;
     border: 1px solid var(--Blue-gray-600);
+    position: relative;
+}
+
+.project__img {
+    position: absolute;
+    top: 9px; 
+    left: 14px;
 }
