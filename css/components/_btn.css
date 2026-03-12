@@ -1,3 +1,29 @@
+.link__btn {
+    display: flex;
+    gap: 16px;
+    padding: 12px 0px;
+    color: var(--Blue-600);
+    margin-left: auto;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 500;
+    min-width: 100px;
+}
+
+@keyframes slideme {
+  0% {
+    left: -30px;
+    margin-left: 0px;
+  }
+  30% {
+    left: 110%;
+    margin-left: 80px;
+  }
+  100% {
+    left: 110%;
+    margin-left: 80px;
+  }
+}
 .btn {
     display: flex;
     gap: 21px;
@@ -11,4 +37,40 @@
     padding: 12px;
     border-radius: 8px;
     align-items: center;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #1436f5;
+    background-image: linear-gradient(to right, #003CC5 0%, #0B63F6 51%, #003CC5 100%);
+}
+
+.btn:hover {
+    background-position: right center;
+    -webkit-transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    transform: rotateZ(5deg);
+    transform: translate(0,-3px);
+  box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
+}
+
+.btn:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 200px;
+    margin-left: 60px;
+    background: #fff;
+    opacity: 0.5;
+    position: absolute;
+    left: -40px;
+    top: -100px;
+    z-index: 1;
+    transform: rotate(45deg);
+    transition: all 0.1s;
+    animation-name: slideme;
+    animation-duration: 3s;
+    animation-delay: 0.05s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }

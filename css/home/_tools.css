@@ -28,14 +28,3 @@
     font-size: 18px;
     line-height: 1.6;
 }
-
-.tools__btn {
-    display: flex;
-    gap: 16px;
-    padding: 12px 0px;
-    color: var(--Blue-600);
-    margin-left: auto;
-    font-size: 14px;
-    align-items: center;
-    font-weight: 500;
-}
