@@ -4,7 +4,6 @@
 }
 
 .header__inner {
-    border-bottom: 1px solid var(--Blue-gray-200);
     padding-bottom: 24px;
     color: var(--Blue-gray-900);
     font-family: var(--font-family);

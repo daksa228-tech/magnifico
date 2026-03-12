@@ -1,7 +1,6 @@
 .project {
     padding-bottom: 80px;
     margin-bottom: 80px;
-    border-bottom: 1px solid var(--Blue-gray-200);
 }
 
 .project__inner {
@@ -19,7 +18,6 @@
 }
 
 .project__title {
-    font-weight: 800;
     font-size: 72px;
     color: var(--Blue-gray-900);
     margin: 24px 0px 0px 0px;
@@ -41,7 +39,6 @@
     font-size: 16px;
     max-width: 600px;
 }
-
 .project__button-inner {
     font-size: 16px;
     width: 408px;
@@ -50,8 +47,9 @@
     border: 1px solid var(--Blue-gray-600);
     position: relative;
 }
+
 .project__img {
     position: absolute;
-    top: 9px;
-    left: 13px;
+    top: 9px; 
+    left: 14px;
 }
