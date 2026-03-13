@@ -3,27 +3,23 @@
 }
 
 .tools__inner {
-    font-family: var(--font-family);
     justify-content: space-between;
     display: flex;
     gap: 128px;
     flex-direction: row-reverse;
-    background-image: url('/images/backTrail.png');
     align-items: center;
 }
 
 .tools__content {
-    max-width: 660px;
+    max-width: 740px;
 }
 .tools__title {
+    color: var(--Blue-gray-900);
     margin: 24px 0px;
     font-size: 56px;
     line-height: 1.1;
 }
 
 .tools__text {
-    color: var(--Blue-gray-600);
     margin-bottom: 36px;
-    font-size: 18px;
-    line-height: 1.6;
 }

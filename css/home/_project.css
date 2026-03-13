@@ -1,11 +1,10 @@
 .project {
     padding-bottom: 80px;
     margin-bottom: 80px;
+    border-bottom: 1px solid var(--Blue-gray-200);
 }
 
 .project__inner {
-    font-family: var(--font-family);
-    color: var(--blue-gray-900);
     justify-content: space-between;
     display: flex;
     gap: 80px;
@@ -18,18 +17,13 @@
 }
 
 .project__title {
-    font-size: 72px;
     color: var(--Blue-gray-900);
+    font-size: 72px;
     margin: 24px 0px 0px 0px;
 }
 
 .project__text {
-    color: var(--Blue-gray-600);
     margin: 24px 0px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-
 }
 
 .project__button {
@@ -40,16 +34,17 @@
     max-width: 600px;
 }
 .project__button-inner {
+    color: var(--Blue-gray-600);
     font-size: 16px;
     width: 408px;
     border-radius: 8px;
     padding: 13px 16px 13px 48px;
-    border: 1px solid var(--Blue-gray-600);
+    border: 1px solid var(--Blue-gray-200);
     position: relative;
 }
 
 .project__img {
     position: absolute;
-    top: 9px; 
+    top: 13px; 
     left: 14px;
 }

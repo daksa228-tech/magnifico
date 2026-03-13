@@ -3,7 +3,6 @@
 }
 
 .hero__inner {
-    font-family: var(--font-family);
     color: #fff;
     display: flex;
     gap: 80px;
@@ -20,22 +19,11 @@
 }
 
 .hero__title {
+    line-height: 1.1;
     font-size: 56px;
+    font-weight: 800;
 }
 
 .hero__text {
     margin: 24px 0px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-}
-
-.hero__btn {
-    display: flex;
-    gap: 16px;
-    padding: 12px 0px;
-    margin-left: auto;
-    font-size: 16px;
-    align-items: center;
-    font-weight: 500;
 }
