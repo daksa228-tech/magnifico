@@ -18,6 +18,13 @@
     align-items: center;
     font-weight: 500;
 }
+.link__btn:hover {
+  text-decoration: line-through;
+}
+.link__btn--white:hover {
+  text-decoration: underline;
+}
+
 @keyframes slideme {
   0% {
     left: -30px;
