@@ -7,7 +7,6 @@
   font-size: 16px;
   align-items: center;
   font-weight: 500;
-  min-width: 100px;
 }
 .link__btn--white {
     display: flex;
@@ -60,6 +59,10 @@
   background-size: 200% auto;
   box-shadow: 0 0 20px #1436f5;
   background-image: linear-gradient(to right, #003CC5 0%, #0B63F6 51%, #003CC5 100%);
+  @media (max-width: 1200px) {
+        font-size: 14px;
+        padding: 12px 17px 12px 28px;
+    }
 }
 
 .btn:hover {

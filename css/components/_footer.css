@@ -15,15 +15,14 @@
 }
 
 .footer__title {
+    font-family: var(--second-family);
     font-size: 18px;
     line-height: 110%;
-    font-weight: 500;
 }
 
 .footer__text {
     font-size: 16px;
     line-height: 140%;
-    color: var(--Blue-gray-600);
 }
 
 .footer__list {
@@ -33,7 +32,6 @@
 }
 
 .footer__link {
-    color: var(--Blue-gray-600);
     padding: 12px 0px;
     font-size: 16px;
     line-height: 140%;

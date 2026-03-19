@@ -12,6 +12,7 @@
     padding: 80px;
     justify-content: flex-end;
     min-height: 496px;
+    background-position: center;
 }
 
 .hero__content {
@@ -19,10 +20,14 @@
 }
 
 .hero__title {
+    font-family: var(--second-family);
     min-height: 124px;
     line-height: 1.1;
     font-size: 56px;
     font-weight: 800;
+    @media (max-width: 1200px) {
+        font-size: 52px;
+    }
 }
 
 .hero__text {

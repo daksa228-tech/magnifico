@@ -1,11 +1,41 @@
 .container {
-    max-width: 1440px;
+    max-width: 1310px;
     margin: 0 auto;
+    padding: 0 15px;
+
+    @media (max-width: 1200px) {
+        max-width: 1140px;
+    }
+
+    @media (max-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media (max-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media (max-width: 610px) {
+        max-width: 580px;
+    }
+
+    @media (max-width: 468px) {
+        max-width: 440px;
+    }
+
+    @media (max-width: 380px) {
+        max-width: 350px;
+    }
 }
+
 .body {
     color: var(--Blue-gray-600);
     background-color: var(--White);
     font-size: 18px;
     font-family: var(--font-family);
     line-height: 1.6;
+
+    @media (max-width: 1200px) {
+        font-size: 16px;
+    }
 }
